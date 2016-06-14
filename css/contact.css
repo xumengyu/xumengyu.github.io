@@ -1,27 +1,29 @@
 body {
     background-color: #222;
-    margin:0px auto;
-    text-align:center;
 }
 
-#header{
+.header{
+    text-align: center;
     position: fixed;
     top: 0px;
     left: 0px;
     height: 120px;
     width: 100%;
     background-color:#333;
+    z-index: 1;
 
 }
 .menu{
+    display: inline-block;
     width: 1200px;
-    margin:0px auto;
+    margin:0 auto;
     text-align:center;
 }
 
 .nav-item{
-    float: left;
+    overflow: auto;
     list-style-type:none;
+    float: left;
 }
 .nav-item-link{
     display: block;
@@ -33,24 +35,27 @@ body {
 }
 
 .you{
-    width: 300px;
-    height: 120px;
+    margin: 40px;
 }
 
-.ss{
-    padding: 20px;
+.icons{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 18px;
+    margin-left: -98px;
+    opacity:0.2;
+    filter:alpha(opacity=40);
+    z-index: -1;
 }
 
 .item2{
     width: 180px;
-
+    border-right: 1px solid #222222;
 }
 .item2:hover{
     background-color: #222;
 }
-
-
-
 
 .aa{
     font-size:36px
@@ -72,10 +77,73 @@ body {
     background-color: #222;
     margin-top:100px auto;
 }
-#aabb{
-    height: 1000px;
-    width: 1200px;
-    margin:0 auto;
-    background-color: #FFFFFF;
 
+.content{
+
+    margin: auto;
+    text-align: center;
+    /*margin-top: 120px;*/
+}
+.zuoyou{
+    display: inline-block;
+    width: 1200px;
+    margin-top: 120px
+}
+
+.left{
+    height: 600px;
+    width: 49.5%;
+    background-color: #666;
+    float: left;
+}
+.u1{
+    width: 25%;
+    margin-top: 120px;
+}
+
+.right{
+
+    height: 600px;
+    width: 49.5%;
+    background-color: #555;
+    float: right;
+}
+
+p{
+    color: #e0e0e0;
+    font-size: 12px;
+    margin: 0;
+}
+p.test{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom : 30px;
+    margin-top: 10px;
+}
+
+.ps{
+    text-align: center;
+    display: inline-block;
+    margin: 40px;
+
+}
+.skills{
+    margin: 4px;
+    width: 30px;
+    height: 30px;
+}
+
+.foot{
+    margin:auto;
+    text-align: center;
+    margin-top: -4px;
+    width: 1200px;
+    height: 200px;
+    background-color: #E0E0E0;
+}
+.foot p{
+    color: #666;
+}
+.topss{
+    padding: 76px;
 }
