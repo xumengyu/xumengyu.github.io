@@ -79,15 +79,64 @@ body {
 }
 
 .content{
-
     margin: auto;
     text-align: center;
-    /*margin-top: 120px;*/
+    margin-top: 71px;
 }
 .zuoyou{
     display: inline-block;
     width: 1200px;
-    margin-top: 120px
+}
+.heng1{
+    width: 90px;
+    height: 15px;
+    background: #222;
+    border-radius: 12px;
+    position: relative;
+     top: 83px;
+     left: 555px;
+    background-image:linear-gradient(to left,#333333,#666666);
+    z-index: 1
+}
+.heng2{
+    width: 90px;
+    height: 15px;
+    background: #222;
+    border-radius: 12px;
+    position: relative;
+     top: 538px;
+     left: 555px;
+    background-image:linear-gradient(to left,#333333,#666666);
+    z-index: 1
+}
+.yuan{
+    width: 20px;
+    height: 20px;
+    background: #333;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+}
+.yuan_r1{
+   position: relative;
+  top: 50px;
+  left: 550px;
+}
+.yuan_r2 {
+     position: relative;
+  top: 500px;
+  left: 550px;
+}
+.yuan_l1{
+    position: relative;
+  top: 50px;
+  left: 25px;
+}
+.yuan_l2{
+   position: relative;
+  top: 500px;
+  left: 25px;
 }
 
 .left{
@@ -102,7 +151,6 @@ body {
 }
 
 .right{
-
     height: 600px;
     width: 49.5%;
     background-color: #555;
@@ -136,7 +184,6 @@ p.test{
 .foot{
     margin:auto;
     text-align: center;
-    margin-top: -4px;
     width: 1200px;
     height: 200px;
     background-color: #E0E0E0;
