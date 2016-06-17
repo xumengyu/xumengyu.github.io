@@ -1,8 +1,30 @@
 body {
     background-color: #222;
 }
+.ui.menu .item{
+    color: #999;
+}
+.ui.menu .active.item{
+    color: #FFFFFF;
+}
+.ui.menu a.item:hover{
+    color: #FFFFFF;
+}
+.ui.menu .active.item:hover{
+    color: #FFFFFF;
+}
+.ui.menu{
+    background-color: #333;
+}
+.ui.input input{
+    background: #555;
+    border: none;
+}
 
-.header{
+.ui.input input:focus{
+    background-color: #999;
+}
+/*header{`
     text-align: center;
     position: fixed;
     top: 0px;
@@ -11,28 +33,20 @@ body {
     width: 100%;
     background-color:#333;
     z-index: 1;
-
-}
-.menu{
-    display: inline-block;
-    width: 1200px;
-    margin:0 auto;
-    text-align:center;
 }
 
-.nav-item{
-    overflow: auto;
-    list-style-type:none;
-    float: left;
+*/
+
+.column.grayleft{
+    background-color: #444444;
+    color: #cccccc;
 }
-.nav-item-link{
-    display: block;
-    padding: 34px;
-    white-space: nowrap;
-    line-height: 41px;
-    text-decoration: none;
-    color: #ffffff;
+.column.grayright{
+    background-color: #555555;
+    color: #cccccc;
 }
+
+/*
 
 .you{
     margin: 40px;
