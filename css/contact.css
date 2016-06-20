@@ -24,18 +24,6 @@ body {
 .ui.input input:focus{
     background-color: #999;
 }
-/*header{`
-    text-align: center;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 120px;
-    width: 100%;
-    background-color:#333;
-    z-index: 1;
-}
-
-*/
 
 .column.grayleft{
     background-color: #444444;
@@ -45,7 +33,14 @@ body {
     background-color: #555555;
     color: #cccccc;
 }
-
+.ui.image{
+    height: 150px;
+    width: 150px;
+}
+.centers{
+    padding-top:120px;
+    padding-bottom: 120px;
+}
 /*
 
 .you{
